@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #footerSection{
+    background-color: black;
+    /* margin-top: 50vh; */
+    /* margin-bottom: 50vh; */
+    /* position: inherit; */
+/* } */
