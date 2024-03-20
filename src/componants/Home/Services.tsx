@@ -7,7 +7,8 @@ import { motion } from "framer-motion";
 
 const Services: React.FC = () => {
   return (
-    <section className="sticky top-0 bg-white z-50 ">
+    // sticky top-0 z-50
+    <section className=" bg-white mb-10  ">
       <div className="text-center py-8 ">
         <p>Services</p>
         <p className="text-4xl">My Services</p>

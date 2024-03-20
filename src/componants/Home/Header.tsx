@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 
 const Header: React.FC = () => {
   return (
-    <div className="bg-orange-100 sticky top-0 z-10 py-8 px-4 md:px-8 flex justify-between items-center">
+    // sticky top-0 z-10
+    <div className="bg-orange-100  py-8 px-4 md:px-8 flex justify-between items-center">
       <motion.div
         initial={{ opacity: 0, scale: 0, x: 500 }}
         whileInView={{ opacity: 1, scale: 1, x: 0 }}

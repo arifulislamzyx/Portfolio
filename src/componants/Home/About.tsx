@@ -14,8 +14,10 @@ const About: React.FC = () => {
     link.download = "Ariful Islam.pdf";
     link.click();
   };
+
   return (
-    <section className=" pb-20 sticky top-0 bg-white z-50">
+    // sticky top-0 bg-white z-50
+    <section className=" pb-20 ">
       <div className="flex items-center border">
         <motion.div
           initial={{ opacity: 0, scale: 0, x: 500 }}

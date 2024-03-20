@@ -36,7 +36,8 @@ const EducatioEX: React.FC = () => {
     }
   };
   return (
-    <div className="z-50 sticky top-0 bg-orange-100 flex">
+    // z-50 sticky top-0
+    <div className=" bg-orange-100 flex">
       <div className="w-1/2 items-center">
         <div className="ml-20 py-6">
           <p>Resume</p>

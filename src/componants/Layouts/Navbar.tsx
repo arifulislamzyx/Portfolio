@@ -24,7 +24,8 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className=" hidden  md:sticky top-0 md:flex justify-evenly items-center bg-white p-5 text-black">
+      {/* md:sticky top-0 */}
+      <div className=" hidden   md:flex justify-evenly items-center bg-white p-5 text-black">
         <div>
           <h1 className="text-orange-500 text-2xl font-bold">
             Ariful <span className="text-purple-600">Islam</span>
